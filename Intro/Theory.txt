@@ -1,0 +1,41 @@
+What are quantum computers?
+Quantum computers are machines that work with qubits (quantum bits) rather than regular bits.
+
+What's a qubit?
+A regular bit is a transistor that registers either a high or low voltage, which corresponds to 1 or 0 respectively. Through advances in technology over the years, we have bits that are nearly the size of atoms, which is absolutely incredible.
+
+A quantum bit is a 2-state quantum "device." Many things can be used as qubits, such as a photon's horizontal and vertical polarization, or the spin up or spin down of an electron. What this means for us as computer scientists is that a qubit can be a 0, 1, or both.
+
+Because...
+
+Qubits also have 2 other very important properties:
+
+Superposition - this is where a qubit is, while left unobserved, all of its possible states. Once observed, it will collapse into one of the possible states.
+Entanglement - This is where one qubit's state is linked to another. When entangled with eachother, a change in one of the entangled qubits will change the other instanty. At any distance. Take take that both of those words are fully intended. Instantly and *any* distance, which is what Einstein referred to as "Spooky action at a distance," since this appeared to violate various rules like transmitting information faster than the speed of light. This is referred to as quantum non-locality. I haven't personally seen a compelling explanation as to why this isn't spooky action at a distance, but we are assured by super smart people that it isn't... even though the behavior is as such at least with what we'll be doing. Still seems spooky to me.
+
+
+How do quantum computers consider, fundamentally, more possibilities at once?
+With classical computers:
+
+n_states = 2 x n_bits
+
+With quantum computers:
+
+n_states = 2^n_bits
+
+Being exponential like this gives us some phenomenal properties. This is why quantum computers can help us with heavy-optimization types of tasks, or just tasks that have many possibilities.
+
+If you add more bits to a regular computer, it can still only deal with one state at a time. But as you add qubits, the power of your quantum computer grows exponentially. For the mathematically inclined, we can say that if you have “n” qubits, you can simultaneously represent 2n states.
+
+
+
+So how do you read information from the qubits?
+There’s an aura of the mystical about what goes on during a quantum computation. The more way-out physicists describe the qubits as engaging in a sort-of quantum séance with parallel worlds to divine the answer.
+
+But it’s not magic, it’s just quantum mechanics.
+
+Say you’ve got your new 64-qubit quantum computer up and running for its first computation. You place all 64 qubits in superposition, just like 64 coins all balanced on edge. Together, they hold 264 possible states in limbo. You know one of these states represents the right answer. But which one?
+
+The problem is, reading the qubits causes the superposition to collapse – like banging your fist on the table with all those balanced coins.
+
+Here’s where a quantum algorithm like Shor’s comes in handy. It loads the qubits to make them more likely to fall on the correct side, and give us the right answer.
